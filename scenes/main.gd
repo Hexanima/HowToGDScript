@@ -1,5 +1,11 @@
 extends Node
 
+@onready var weapon = $Player/Weapon
+@onready var graphics = get_node("Player/Graphics") # Lo mismo q arriba
+
+@export var enemy: Node
+@export var sprite: Sprite2D
+
 @export var health = 100 # Accesible en inspector
 var script_variable = "Hola"
 var damage: int = 50
@@ -12,6 +18,13 @@ enum Alignment {ALLY = 1, NEUTRAL = 0, ENEMY = -1}
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	print(weapon.get_path())
+	if enemy:
+		print(enemy.get_path())
+	if sprite:
+		print(sprite.get_path())
+	if enemy is Node2D:
+		print("Es Node2D")
 	if unitType == Alignment.ENEMY:
 		print("TOMATE EL PALO")
 		

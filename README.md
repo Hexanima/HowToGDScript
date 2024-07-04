@@ -26,8 +26,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Dictionaries~
 - ~Enums~
 - ~Match~
-- **- Modifying nodes 2.0 -**
-- Signals
+- ~Modifying nodes 2.0~
+- **- Signals -**
 - Get / set
 - Classes
 - Inner classes
