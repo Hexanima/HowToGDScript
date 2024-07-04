@@ -11,8 +11,8 @@ Este codigo usa la versión 4.2.2 de Godot
 ## Progreso
 
 - ~Hello World~
-- **- Syntax -**
-- Modifying nodes 1.0
+- ~Syntax~
+- **- Modifying nodes 1.0 -**
 - Input
 - Variables 1.0
 - If-statements
