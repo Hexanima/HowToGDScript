@@ -11,6 +11,14 @@ func _input(event):
 	if event.is_action_pressed("mi_accion"):
 		health -= 20
 		print(health)
+		if health <= 0: 
+			health = 0
+			print("Murió")
+		elif health <= 50:
+			print("Duele che")
+		else:
+			print("TAMOS BIEN")
+			
 		$Label.text = "NO TAN FUERTE, SOLTA PORFA"
 		$Label.modulate = Color.RED
 		
