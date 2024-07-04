@@ -6,8 +6,14 @@ var damage: int = 50
 var armor := 50 # Define el tipo en definicion
 const GRAVITY = -9.81
 
+enum Alignment {ALLY = 1, NEUTRAL = 0, ENEMY = -1}
+
+@export var unitType: Alignment
+
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	if unitType == Alignment.ENEMY:
+		print("TOMATE EL PALO")
 	var roll = randf() # Float entre 0 y 1
 	var items: Array[String] = ["Potion", "Sword", "Axe"]
 	print(items)
