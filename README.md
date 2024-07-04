@@ -25,8 +25,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Loops~
 - ~Dictionaries~
 - ~Enums~
-- **- Match -**
-- Modifying nodes 2.0
+- ~Match~
+- **- Modifying nodes 2.0 -**
 - Signals
 - Get / set
 - Classes

@@ -14,6 +14,17 @@ enum Alignment {ALLY = 1, NEUTRAL = 0, ENEMY = -1}
 func _ready():
 	if unitType == Alignment.ENEMY:
 		print("TOMATE EL PALO")
+		
+	match unitType:
+		Alignment.ALLY:
+			print("Hola compañero!")
+		Alignment.NEUTRAL:
+			print("Hola extraño")
+		Alignment.ENEMY:
+			print("Cuidado con lo que haras, escoria")
+		_:
+			print("Khe")
+	
 	var roll = randf() # Float entre 0 y 1
 	var items: Array[String] = ["Potion", "Sword", "Axe"]
 	print(items)
