@@ -144,6 +144,7 @@ func add(num1: int, num2: int) -> int:
 
 func _on_button_pressed():
 	print("ALOOO")
+	health2 = randi_range(-200, 200)
 
 var xp := 0
 
@@ -156,6 +157,23 @@ func _on_timer_timeout():
 		xp = 0
 		leveled_up.emit("SUBISTE NIVEL!")
 
-
 func _on_leveled_up(msg: String):
 	print(msg) # Replace with function body.
+
+signal health_change(new_health)
+
+var health2 := 100:
+	set(value):
+		health = clamp(value,0, 100)
+		health_change.emit(health)
+
+func _on_health_change(new_health):
+	print(new_health)
+
+
+var chance := 0.2
+var change_pct: int:
+	get:
+		return chance * 100
+	set(value):
+		chance = float(value) / 100.0
