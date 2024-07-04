@@ -14,8 +14,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Syntax~
 - ~Modifying nodes 1.0~
 - ~Input~
-- **- Variables 1.0 -**
-- If-statements
+- ~Variables 1.0~
+- **- If-statements -**
 - Comments
 - Variables 2.0
 - Functions
