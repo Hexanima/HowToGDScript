@@ -14,10 +14,11 @@ func _ready():
 		print("Item COMUN")
 	else:
 		print("Item RARO")
-		
-	var character_height = randi_range(100, 200)
 	
-	print("Tu altura es de " + str(character_height) + "cm")
+	# Ctrl + Click al nombre de la funcion
+	var char_height = randi_range(100, 200)
+	
+	print("Tu altura es de " + str(char_height) + "cm")
 	
 	var scope_variable = "Adios"
 	var numero = 42
