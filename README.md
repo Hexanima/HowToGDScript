@@ -33,5 +33,5 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Inner classes~
 - ~Inheritance~
 - ~Composition~ [Video explicativo acá](https://youtu.be/74y6zWZfQKk?si=9cJV8sMdV3NXbTgG)
-- **- Call down, signal up -**
-- Style
+- ~Call down, signal up~ [Trata relacion entre nodos parentales](https://kidscancode.org/godot_recipes/4.x/basics/node_communication/)
+- **- Style -**
