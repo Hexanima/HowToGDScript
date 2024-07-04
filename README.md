@@ -13,7 +13,7 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Hello World~
 - ~Syntax~
 - ~Modifying nodes 1.0~
-- ~Input~
+- ~Input~ [Más explicaciones acá](https://docs.godotengine.org/en/stable/tutorials/inputs/input_examples.html)
 - ~Variables 1.0~
 - ~If-statements~
 - ~Comments~
@@ -32,6 +32,6 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Classes~
 - ~Inner classes~
 - ~Inheritance~
-- **- Composition -**
-- Call down, signal up
+- ~Composition~ [Video explicativo acá](https://youtu.be/74y6zWZfQKk?si=9cJV8sMdV3NXbTgG)
+- **- Call down, signal up -**
 - Style
