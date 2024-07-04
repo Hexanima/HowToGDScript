@@ -26,6 +26,7 @@ func _ready():
 func _input(event):
 	#Chequea presion de input
 	if event.is_action_pressed("mi_accion"):
+		jump()
 		health -= 20 # Resta vida
 		#print(health)
 		if health <= 0: 
@@ -35,10 +36,17 @@ func _input(event):
 			print("Duele che")
 		else:
 			print("TAMOS BIEN")
-			
+		
 		$Label.text = "NO TAN FUERTE, SOLTA PORFA"
 		$Label.modulate = Color.RED
 		
 	if event.is_action_released("mi_accion"):
 		$Label.text = "Gracias che :)"
 		$Label.modulate = Color.GREEN
+
+func jump():
+	print("SALTANDO")
+
+func add(num1: int, num2: int) -> int:
+	var result = num1 + num2
+	return result
