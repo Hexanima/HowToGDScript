@@ -1,9 +1,25 @@
 extends Node
 
-var health = 100
+@export var health = 100 # Accesible en inspector
+var script_variable = "Hola"
+var damage: int = 50
+var armor := 50 # Define el tipo en definicion
+const GRAVITY = -9.81
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
+	var scope_variable = "Adios"
+	var numero = 42
+	var texto = "El significado de la vida: " + str(numero)
+	print(texto)
+	var pi = 3.14
+	print(int(pi))
+	var position = Vector3(0, 0, 0)
+	position.x += 2
+	position.y -= 12
+	position.z = 5
+	print(position)
+	print(position.length())
 	$Label.text = "Mantené apretado el espacio :P"
 	$Label.modulate = Color.GREEN
 
