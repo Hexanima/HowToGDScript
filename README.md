@@ -19,8 +19,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Comments~
 - ~Variables 2.0~
 - ~Functions~
-- **- Random numbers -**
-- Documentation
+- ~Random numbers~
+- **- Documentation -**
 - Arrays
 - Loops
 - Dictionaries
