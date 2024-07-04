@@ -34,6 +34,28 @@ func _ready():
 		
 		print(glass)
 	
+	var players = {
+		"Crook": {
+			"Level": 1,
+			"Health": 80
+		},
+		"Player": {
+			"Level": 5,
+			"Health": 40
+		},
+		12: {
+			"Level": 1233,
+			"Health": 9001
+		}
+	}
+	
+	print(players[12])
+	print(players["Crook"]["Health"])
+	
+	for item in players:
+		print(str(item) + ": " + str(players[item]))
+	
+	
 	if roll <= 0.8:
 		print("Item COMUN")
 	else:

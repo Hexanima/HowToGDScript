@@ -23,8 +23,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Documentation~
 - ~Arrays~
 - ~Loops~
-- **- Dictionaries -**
-- Enums
+- ~Dictionaries~
+- **- Enums -**
 - Match
 - Modifying nodes 2.0
 - Signals
