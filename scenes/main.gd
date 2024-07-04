@@ -9,6 +9,14 @@ const GRAVITY = -9.81
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	var roll = randf() # Float entre 0 y 1
+	var items: Array[String] = ["Potion", "Sword", "Axe"]
+	print(items)
+	print(items[2])
+	items[1] = "Staff"
+	items.remove_at(2)
+	print(items)
+	items.append("All-seeing Eye")
+	print(items)
 	
 	if roll <= 0.8:
 		print("Item COMUN")
