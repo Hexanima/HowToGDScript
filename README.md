@@ -30,8 +30,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Signals~
 - ~Get / set~
 - ~Classes~
-- **- Inner classes -**
-- Inheritance
+- ~Inner classes~
+- **- Inheritance -**
 - Composition
 - Call down, signal up
 - Style
