@@ -22,8 +22,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Random numbers~
 - ~Documentation~
 - ~Arrays~
-- **- Loops -**
-- Dictionaries
+- ~Loops~
+- **- Dictionaries -**
 - Enums
 - Match
 - Modifying nodes 2.0

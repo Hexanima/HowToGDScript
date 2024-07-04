@@ -18,6 +18,22 @@ func _ready():
 	items.append("All-seeing Eye")
 	print(items)
 	
+	for item in items:
+		if item.length() > 5:
+			print(item)
+			
+	for n in 8:
+		print(n)
+	
+	var glass := 0.0
+	while glass <= 0.5:
+		glass += randf_range(0.01, 0.2)
+		
+		if glass > 0.2:
+			break
+		
+		print(glass)
+	
 	if roll <= 0.8:
 		print("Item COMUN")
 	else:
