@@ -8,9 +8,10 @@ func _ready():
 	$Label.modulate = Color.GREEN
 
 func _input(event):
+	#Chequea presion de input
 	if event.is_action_pressed("mi_accion"):
-		health -= 20
-		print(health)
+		health -= 20 # Resta vida
+		#print(health)
 		if health <= 0: 
 			health = 0
 			print("Murió")

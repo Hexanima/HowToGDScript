@@ -16,8 +16,8 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Input~
 - ~Variables 1.0~
 - ~If-statements~
-- **- Comments -**
-- Variables 2.0
+- ~Comments~
+- **- Variables 2.0 -**
 - Functions
 - Random numbers
 - Documentation
