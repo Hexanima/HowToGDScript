@@ -1,11 +1,13 @@
-[gd_scene load_steps=2 format=3 uid="uid://dkvmpm3s14shb"]
+[gd_scene load_steps=3 format=3 uid="uid://dkvmpm3s14shb"]
 
 [ext_resource type="Script" path="res://scenes/main.gd" id="1_7qt4k"]
+[ext_resource type="Script" path="res://scenes/character.gd" id="2_3g2x5"]
 
-[node name="Main" type="Node" node_paths=PackedStringArray("enemy", "sprite")]
+[node name="Main" type="Node" node_paths=PackedStringArray("enemy", "sprite", "characterToKill")]
 script = ExtResource("1_7qt4k")
 enemy = NodePath("Enemy")
 sprite = NodePath("Player/Graphics")
+characterToKill = NodePath("Character2")
 
 [node name="Label" type="Label" parent="."]
 anchors_preset = 8
@@ -37,6 +39,21 @@ text = "PRESIONAR"
 
 [node name="Timer" type="Timer" parent="."]
 autostart = true
+
+[node name="Character" type="Node" parent="."]
+script = ExtResource("2_3g2x5")
+profession = "Vendedor"
+health = 50
+
+[node name="Character2" type="Node" parent="."]
+script = ExtResource("2_3g2x5")
+profession = "Heroe"
+health = 200
+
+[node name="Character3" type="Node" parent="."]
+script = ExtResource("2_3g2x5")
+profession = "Guardia"
+health = 100
 
 [connection signal="health_change" from="." to="." method="_on_health_change"]
 [connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

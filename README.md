@@ -28,9 +28,9 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Match~
 - ~Modifying nodes 2.0~
 - ~Signals~
-- ~Get / set
-- **- Classes -**
-- Inner classes
+- ~Get / set~
+- ~Classes~
+- **- Inner classes -**
 - Inheritance
 - Composition
 - Call down, signal up

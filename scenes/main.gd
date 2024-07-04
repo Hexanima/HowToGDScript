@@ -112,6 +112,9 @@ func _ready():
 	print(position.length())
 	$Label.text = "Mantené apretado el espacio :P"
 	$Label.modulate = Color.GREEN
+	
+	if(characterToKill):
+		characterToKill.die()
 
 func _input(event):
 	#Chequea presion de input
@@ -172,8 +175,10 @@ func _on_health_change(new_health):
 
 
 var chance := 0.2
-var change_pct: int:
+var chance_pct: int:
 	get:
 		return chance * 100
 	set(value):
 		chance = float(value) / 100.0
+		
+@export var characterToKill : Character
