@@ -31,7 +31,7 @@ Este codigo usa la versión 4.2.2 de Godot
 - ~Get / set~
 - ~Classes~
 - ~Inner classes~
-- **- Inheritance -**
-- Composition
+- ~Inheritance~
+- **- Composition -**
 - Call down, signal up
 - Style
